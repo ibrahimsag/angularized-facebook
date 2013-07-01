@@ -44,7 +44,7 @@ Usage:
       );
       
       // make an api request
-      facebook.api('/me/albums?fields=name,photos.fields(id, picture, source, width, height, images)')
+      facebook.api('/me/albums?fields=name,photos.fields(id,picture,source,width,height,images)')
       .then(
         function(response) {
           //succeeded
