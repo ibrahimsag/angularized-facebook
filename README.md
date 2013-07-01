@@ -58,12 +58,12 @@ Usage:
       $fb.ui(
       	{
           method: 'feed',
-	  name: 'Facebook Dialogs',
-	  link: 'https://developers.facebook.com/docs/reference/dialogs/',
-	  picture: 'http://fbrell.com/f8.jpg',
-	  caption: 'Reference Documentation',
-	  description: 'Dialogs provide a simple, consistent interface for applications to interface with users.'
-	}
+      	  name: 'Facebook Dialogs',
+      	  link: 'https://developers.facebook.com/docs/reference/dialogs/',
+      	  picture: 'http://fbrell.com/f8.jpg',
+      	  caption: 'Reference Documentation',
+      	  description: 'Dialogs provide a simple, consistent interface for applications to interface with users.'
+      	}
       )
       .then(
         function(response) {
