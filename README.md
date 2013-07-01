@@ -47,32 +47,32 @@ Usage:
       facebook.api('/me/albums?fields=name,photos.fields(id, picture, source, width, height, images)')
       .then(
         function(response) {
-        	//succeeded
+          //succeeded
         },
         function(response) {
-        	//failed
+          //failed
         }
       );
       
       // or open a dialog with core service
       $fb.ui(
       	{
-			    method: 'feed',
-			    name: 'Facebook Dialogs',
-			    link: 'https://developers.facebook.com/docs/reference/dialogs/',
-			    picture: 'http://fbrell.com/f8.jpg',
-			    caption: 'Reference Documentation',
-			    description: 'Dialogs provide a simple, consistent interface for applications to interface with users.'
-		  	}
-		  )
+          method: 'feed',
+	  name: 'Facebook Dialogs',
+	  link: 'https://developers.facebook.com/docs/reference/dialogs/',
+	  picture: 'http://fbrell.com/f8.jpg',
+	  caption: 'Reference Documentation',
+	  description: 'Dialogs provide a simple, consistent interface for applications to interface with users.'
+	}
+      )
       .then(
         function(response) {
-	        if (response && response.post_id) {
-	          alert('Post was published.');
-	        } else {
-	          alert('Post was not published.');
-	        }
-	      }
+          if (response && response.post_id) {
+            alert('Post was published.');
+          } else {
+            alert('Post was not published.');
+          }
+        }
       );
     }
 
