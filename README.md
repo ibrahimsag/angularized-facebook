@@ -1,7 +1,7 @@
 angularized-facebook
 ====================
 
-facebook service that can be plugged in
+facebook js-sdk wrap-up for angular.js.
 
 Usage: 
 -----
